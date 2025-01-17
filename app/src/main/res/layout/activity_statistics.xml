@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/totalHabitsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Всего привычек: 0"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- Разделительная линия -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayDark"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/completionPercentageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выполнено: 0%"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- Разделительная линия -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayDark"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/mostCompletedHabitTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Самая популярная привычка: -"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- Разделительная линия -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayDark"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/todayCompletedHabitsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сегодня выполнено: 0 привычек"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+</LinearLayout>

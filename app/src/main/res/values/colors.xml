@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="colorPrimary">#A4BCFF</color>
+    <color name="colorPrimaryDark">#A4BCFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorGray">#BDBDBD</color>
+    <color name="colorGrayDark">#757575</color>
+
+    <!-- Цвета для текста -->
+    <color name="background_dark">#121212</color>
+    <color name="text_primary_dark">#A2A0A0</color> <!-- Основной текст в тёмной теме -->
+    <color name="text_secondary_dark">#B0B0B0</color> <!-- Второстепенный текст -->
+    <color name="text_primary_light">#000000</color> <!-- Основной текст для светлой темы -->
+
+    <color name="habit_completed_text">#B0BEC5</color> <!-- Светло-серый текст -->
+    <color name="habit_completed_background">#4E8EA6E6</color> <!-- Светлый фон -->
+    <color name="habit_default_text">#000000</color> <!-- Обычный текст -->
+    <color name="habit_default_background">#FFFFFF</color> <!-- Обычный фон -->
+
+    <color name="gradient_start">#42A5F5</color> <!-- Синий -->
+    <color name="gradient_end">#E3F2FD</color>  <!-- Светло-синий -->
+
+
+</resources>
