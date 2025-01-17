@@ -34,15 +34,19 @@
         <!-- Название привычки -->
         <TextView
             android:id="@+id/habitName"
-            style="@style/TextAppearance.Habits.Title"
-            android:layout_width="256dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Название привычки" />
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Название привычки"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:paddingEnd="8dp" />
 
         <ImageButton
             android:id="@+id/deleteButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_marginEnd="8dp"
             android:background="?attr/selectableItemBackground"
             android:contentDescription="Удалить привычку"
@@ -50,12 +54,13 @@
 
         <ImageButton
             android:id="@+id/reminderButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
             android:background="?attr/selectableItemBackground"
             android:contentDescription="Установить напоминание"
+            android:scaleType="fitCenter"
             android:src="@drawable/ic_menu_agenda"
-            android:scaleType="centerInside"
             app:tint="#B4877BFF" />
     </LinearLayout>
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Habits</string>
+    <string name="github_button_description">Открыть репозиторий на GitHub</string>
 </resources>

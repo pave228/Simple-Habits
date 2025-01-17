@@ -1,7 +1,10 @@
 package com.example.habits.ui
 
+import android.content.Intent
 import android.content.SharedPreferences
+import android.net.Uri
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -29,6 +32,14 @@ class SettingsActivity : AppCompatActivity() {
             }
             sharedPreferences.edit().putBoolean("dark_mode", isChecked).apply()
         }
+
+        val githubButton: ImageButton = findViewById(R.id.githubButton)
+        githubButton.setOnClickListener {
+            val githubUrl = "https://github.com/pave228/Simple-Habits"
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl))
+            startActivity(intent)
+        }
+
     }
 
     override fun onBackPressed() {
